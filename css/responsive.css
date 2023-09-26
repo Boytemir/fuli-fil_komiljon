@@ -1,0 +1,123 @@
+@media screen and (max-width: 1262px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .header__right {
+        padding-left: 20px;
+    }
+
+    .header__right-card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        padding: 50px 50px 50px 50px;
+    }
+
+    .header .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .header__left {
+        padding-left: 0;
+    }
+
+    .header__left-img {
+        height: auto;
+    }
+
+    .header__left-img img {
+        width: 100%;
+    }
+
+    .header__left-FI {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+    }
+
+    .header__right {
+        padding: 0px;
+        padding-top: 50px;
+    }
+
+    .header__right-box {
+        width: 100%;
+    }
+
+    .header__right-card_title {
+        width: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .header {
+        padding: 10px 20px 30px 20px;
+    }
+
+    .header__left-FI {
+        width: 195px;
+        height: 40px;
+    }
+
+    .header__left-FI h3 {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .header__right {
+        padding: 0px;
+        padding-top: 50px;
+        gap: 24px;
+    }
+
+    .header__right {
+        padding: 0px;
+        padding-top: 24px;
+    }
+
+    .header_right-box_calendar span p, .header_right-box_hour span p {
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+    
+    .header__right-card_title p {
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+    
+    .header__right-card_title h1 {
+        font-size: 30px;
+        line-height:  37.2pxpx;
+    }
+    
+    .header__right-card_title h6 {
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+
+    .header__right-card span {
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+    .header__right-card p {
+        font-size: 14px;
+        line-height: 19.6px;
+    }
+
+    .kurs__btn {
+        width: 100%;
+    }
+}

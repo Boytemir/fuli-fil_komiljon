@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white-color: #fff;
+    --header-bg: linear-gradient(102deg, #425FE2 0.79%, #425FE2 100%), linear-gradient(102deg, #754EB4 0%, #4E2A89 98.44%);
+    --btn-color: #F75E5E;
+    --bg-color: #EFF5F9;
+    --card-color: #5995C1;
+    --text-color: #425FE2;
+   
+    /* fonts */
+    --poppins: 'Poppins', sans-serif;
+
+    /* transition */
+    --transition: all 0.3s ease; 
+
+}
+
+::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white-color);
+}
+
+.container {
+    max-width: 1231px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.kurs__btn {
+    width: 224px;
+    height: 58px;
+    flex-shrink: 0;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background: var(--btn-color);
+    color: var(--white-color);
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.32px;
+    transition: var(--transition);
+}
+
+.kurs__btn:hover {
+    background-color: transparent;
+    color: var(--btn-color);
+    border-color: var(--btn-color);
+}
+
+
+/* HEADER */
+.header {
+    background: var(--header-bg);
+    padding-bottom: 70px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__left {
+    padding-left: 23px;
+}
+
+.header__left-img {
+    height: 607px;
+    position: relative;
+}
+
+.header__left-img img {
+    width: 607px;
+}
+
+.header__left-FI {
+    width: 332px;
+    height: 68px;
+    flex-shrink: 0;
+    background-color: var(--btn-color);
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    z-index: 2;
+}
+
+.header__left-FI h3 {
+    color: var(--white-color);
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: center;
+}
+
+.header__right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 80px;
+    padding-left: 53px;
+}
+
+.header__right-box {
+    width: 355px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 18px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.header_right-box_calendar, .header_right-box_hour {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.header_right-box_calendar img {
+    width: 32px;
+    height: 32px;
+}
+
+.header_right-box_calendar span, .header_right-box_hour span {
+    color: var(--white-color);
+    font-family: var(--poppins);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+
+.header_right-box_calendar span p, .header_right-box_hour span p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.header__right-card_title {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.header__right-card_title p {
+    color: var(--white-color);
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px;
+}
+
+.header__right-card_title h1 {
+    color: var(--white-color);
+    font-family: var(--poppins);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.08px;
+}
+
+.header__right-card_title h6 {
+    color: var(--white-color);
+    font-family: var(--poppins);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.header__right-card {
+    width: 529px;
+    display: flex;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.header__right-card span {
+    display: flex;
+    align-items: center;
+    color: var(--white-color);
+    font-family: var(--poppins);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.header__right-card p {
+    color: var(--white-color);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+
+
