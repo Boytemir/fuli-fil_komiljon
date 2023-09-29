@@ -38,6 +38,40 @@
     .main__box-card:nth-child(6) {
         width: 506px;
     }
+
+    .hero__left {
+        width: 563px;
+
+    }
+
+    .hero__right img {
+        width: 446px;
+    }
+
+    .info__box-card {
+        width: 100%;
+    }
+
+    .info__box-card:nth-child(1) .info__box-card__result {
+        transform: translateY(40px);
+    }
+
+    .info__box-card:nth-child(5) .info__box-card__result {
+        transform: translateY(0px);
+    }
+
+    .info__box-card:nth-child(6) .info__box-card__result {
+        transform: translateY(10px);
+    }
+
+    .our__box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .our__box-card {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1100px) {
@@ -80,6 +114,78 @@
     .main__box-card:nth-child(6) {
         width: 469px;
     }
+
+    .hero {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .hero .container  {
+        width: 100%;
+    }
+
+    .hero__left {
+        width: 450px;
+    }
+
+    .hero__left h1 {
+        font-size: 50px;
+        line-height: 60.4px;
+    }
+
+    .hero__left h1 span  {
+        margin-left: 75px;
+    }
+
+    .hero__left-box__card {
+        width: 217px;
+        height: 140px;
+        padding: 15px 28px;
+    }
+
+    .hero__left-box__card:nth-child(2) {
+        height: 145px
+    }
+
+    .hero__left-box__card h2 {
+        font-size: 45px;
+        line-height: 65px;
+    }
+
+    .hero__left-box__card span {
+        font-size: 18px;
+    }
+
+    .hero__right {
+        width: calc(100% - 465px);
+    }
+
+    .hero__right img {
+        width: 100%;
+    }
+
+    .info {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .info .container {
+        width: 100%;
+    }
+
+    .info__box-card:nth-child(4) .info__box-card__result {
+        transform: translateY(85px);
+    }
+
+    .our {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .our .container{
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -123,6 +229,43 @@
         width: 100%;
     }
 
+    .hero .container {
+        flex-direction: column;
+    }
+
+    .hero__left {
+        width: 100%;
+    }
+
+    .hero__left-box__card {
+        width: 275px;
+    }
+
+    .hero__right {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .info__box {
+        grid-template-columns: 1fr;
+    }
+
+    .info__box-card:nth-child(1) .info__box-card__result {
+        transform: translateY(0px);
+    }
+    
+    .info__box-card:nth-child(4) .info__box-card__result {
+        transform: translateY(0px);
+    }
+    
+    .info__box-card:nth-child(5) .info__box-card__result {
+        transform: translateY(0px);
+    }
+
+    .info__box-card:nth-child(6) .info__box-card__result {
+        transform: translateY(0px);
+    }
+
 
 }
 
@@ -152,6 +295,11 @@
     
     .main__box-card:nth-child(6) {
         width: 394px;
+    }
+
+    .info {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -188,6 +336,19 @@
     
     .main__box-card:nth-child(6) {
         width: 100%;
+    }
+
+    .info {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .info__box {
+        grid-template-columns: 1fr;
+    }
+
+    .our__box {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -321,5 +482,173 @@
     .main .kurs__btn {
         margin-top: 12px;
     }
+
+    .hero {
+        padding: 30px 12px;
+    }
+
+    .hero .container {
+        gap: 24px;
+    }
+
+    .hero__left h1 {
+        font-size: 38px;
+        line-height: 47.12px;
+        margin-top: 0;
+    }
+
+    .hero__left h1 span {
+        margin-left: 98px;
+    }
+
+    .hero__left p {
+        font-size: 18px;
+        line-height: 25.2px;
+        margin-top: 18px;
+    }
+
+    .hero__left-box {
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 18px;
+    }
+
+    .hero__left-box__card {
+        width: 275px;
+        height: 123px;
+        flex-shrink: 0;
+        padding: 20px 31px;
+    }
+
+    .hero__left-box__card:nth-child(2) {
+        width: 275px;
+        height: 123px;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: 0px;
+    }
+
+    .hero__left-box__card h2 {
+        font-size: 40px;
+        line-height: 56px;
+    }
+
+    .hero__left-box__card h2 sub {
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .hero__left-box__card span {
+        font-size: 16px;
+        line-height: 22.4px;
+    }
     
+    .hero__left h6 {
+        font-size: 18px;
+        line-height: 25.2px;
+        margin-top: 24px;
+    }
+
+    .hero__left-worked__card span {
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+
+    .info {
+        padding: 30px 12px;
+    }
+
+    .info__box-card {
+        padding: 26px 12px 12px 12px;
+    }
+
+    .info__box-card__module {
+        width: 125px;
+        height: 36px;
+        flex-shrink: 0;
+    }
+
+    .info__box-card__module p {
+        font-size: 16px;
+        line-height: 19.84px;
+    }
+
+    .info__box-card h3 {
+        font-size: 18px;
+        line-height: 22.32px;
+        padding-bottom: 0px;
+    }
+
+    .info__box-card__title {
+        margin-top: 12px;
+    }
+
+    .info__box-card__title p {
+        font-size: 14px;
+        line-height: 17.36px;
+    }
+
+    .info__box-card__check {
+        width: 24px;
+        height: 24px;
+    }
+
+    .info__box-card__check img {
+        width: 14px;
+    }
+
+    .info__box-card .info__box-card__result  {
+        padding: 10px 12px;
+        align-items: flex-start;
+        margin-top: 16px;
+    }
+
+    .info__box-card__result p  {
+        font-size: 14px;
+        line-height: 19.6px;
+    }
+
+    .our {
+        padding: 30px 12px;
+    }
+
+    .our__box {
+        gap: 18px;
+        margin-top: 18px;
+    }
+
+    .our .text {
+        text-align: center;
+    }
+
+    .our__box-card {
+        padding: 18px;
+    }
+
+    .our__box-card h3 {
+        font-style: 20px;
+        list-style: 24.8px;
+    }
+
+    .our__box-card__title p {
+        font-size: 14px;
+        line-height: 19.6px;
+    }
+
+    .footer {
+        padding: 30px 12px;
+    }
+
+    .footer h1 {
+        font-size: 24px;
+        line-height: 29.76px;
+    }
+
+    .footer p br{
+        display: none;
+    }
+
+    .footer button {
+        width: 100%;
+    }
 }
