@@ -494,7 +494,7 @@
                     <h5>12 00 000 UZS</h5>
                     <h4>12 00 000 UZS</h4>
 
-                    <button>Kursga yozilish</button>
+                    <button class="kurs__btn">Kursga yozilish</button>
                 </div>
                 <div class="our__box-card">
                     <h3>Standart</h3>
@@ -522,7 +522,7 @@
                     <h5>12 00 000 UZS</h5>
                     <h4>12 00 000 UZS</h4>
 
-                    <button>Kursga yozilish</button>
+                    <button class="kurs__btn">Kursga yozilish</button>
                 </div><div class="our__box-card">
                     <h3>Standart</h3>
                     <div class="our__box-card__title">
@@ -549,7 +549,7 @@
                     <h5>12 00 000 UZS</h5>
                     <h4>12 00 000 UZS</h4>
 
-                    <button>Kursga yozilish</button>
+                    <button class="kurs__btn">Kursga yozilish</button>
                 </div>
             </div>
         </div>
@@ -560,13 +560,42 @@
     <footer class="footer">
         <h1>Savollaringiz qoldimi ?</h1>
         <p>Menedjerimiz bilan bog’lanib, barcha <br> savollaringizga javob olishingiz mumkin!</p>
-        <button>Kursga yozilish</button>
+        <button class="kurs__btn">Kursga yozilish</button>
     </footer>
     <!-- FOOTER FINSH -->
 
+    <!-- SIGN UP START -->
+    <section class="sign-up">
+        <div class="container">
+            <div class="sign-up__box">
+                <h2 class="text">Ro’yxatdan <span class="text-colors">o’tish</span></h2>
+                <p>Malumotlarni qoldiring va “Standart” tarifiga yoziling!</p>
+
+                <form action="" class="form">
+                    <div class="form__input-card">
+                        <label for="ism">Ism</label>
+                        <input type="text" placeholder="Ismingizni kiriting" id="ism">
+                    </div>
+                    <div class="form__input-card">
+                        <label for="tel">Telefon raqami</label>
+                        <input type="text" value="+998" placeholder="Telefon raqami" id="tel" onkeyup="numberonly(this)">
+                    </div>
+
+                    <button class="sign-up__btn">Ro'yxatdan o'tish</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- SIGN UP FINSH -->
 
     <!-- js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
+    <script type="text/javascript">
+        function numberonly(input) {
+            var num = /[^0-9+]/gi;
+            input.value= input.value.replace(num, "");
+        }
+    </script>
 </body>
 </html>
