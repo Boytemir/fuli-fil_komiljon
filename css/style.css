@@ -640,12 +640,12 @@ a {
     margin-top: 30px;
 }
 
-.swiper {
+.owl-carousel {
     width: 100%;
 }
 
-.swiper-slide {
-    width: 295px !important;
+.aboutMy__card {
+    height: 306px !important;
 }
 
 .aboutMy__card {
@@ -662,8 +662,12 @@ a {
     box-sizing: border-box;
 }
 
+.owl-carousel {
+    display: grid;
+}
+
 .aboutMy__card img {
-    width: 99px;
+    width: 99px !important;
     height: 99px;
     border-radius: 50%;
 }
@@ -707,6 +711,9 @@ a {
     border-radius: 18px;
     background: var(--white-color);
     padding: 30px 24px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 

@@ -1,30 +1,27 @@
-// Swiper js
+// Owl Carousel js
 
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 12,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    breakpoints: {
-      600: {
-        slidesPerView: 1,
-        spaceBetween: 12,
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin: 20,
+  autoplay:true,
+  autoplayTimeout:3000,
+  autoWidth: true,
+  nav: false,
+  dots: false,
+  responsive:{
+      0:{
+          items:1,
       },
-      768: {
-        slidesPerView: 4,
-        spaceBetween: 20,
+      600:{
+          items:2
       },
-      1024: {
-        slidesPerView: 5,
-        spaceBetween: 20,
+      1024:{
+          items:4
       },
-    },
+      1100:{
+          items:5
+      }
+  }
 });
 
 
@@ -53,3 +50,9 @@ let sign__up__btn = document.querySelector(".sign-up__btn");
 sign__up__btn.addEventListener("click", (e) => {
     e.preventDefault();
 });
+
+// Form input numbers
+function numberonly(input) {
+  var num = /[^0-9+]/gi;
+  input.value= input.value.replace(num, "");
+}
