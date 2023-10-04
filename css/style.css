@@ -190,15 +190,6 @@ a {
     line-height: 52.08px;
 }
 
-.header__right-card_title h6 {
-    color: var(--white-color);
-    font-family: var(--poppins);
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 42px;
-}
-
 .header__right-card {
     width: 529px;
     display: flex;
