@@ -181,15 +181,6 @@ a {
     gap: 12px;
 }
 
-.header__right-card_title p {
-    color: var(--white-color);
-    font-family: var(--poppins);
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 33.6px;
-}
-
 .header__right-card_title h1 {
     color: var(--white-color);
     font-family: var(--poppins);
